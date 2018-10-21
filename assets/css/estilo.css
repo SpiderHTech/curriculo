@@ -1,83 +1,104 @@
 /*  font-family: 'Roboto', sans-serif;
     font-family: 'Anton', sans-serif;*/
 
-body{
-    font-family: 'Roboto', sans-serif;
-    margin:0;
-    padding:0;
-}
-
-
-a{
-    text-decoration: none;
-    color: #00BFFF;
-}
-
-a:hover{
-    color: white;
-    font-weight:bold;
-}
-
-.menu{
-    background-color:black;
-    padding: 0px;
-    padding-bottom: 20px;
-}
-
-.menu ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    font-family: 'Anton', sans-serif;
-}
-
-.menu li{
-    display: inline;
-    font-size: 30px;
-}
-.banner > h1{
-    font-family: 'Aton', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    padding:0px;
-    padding-bottom: 20px;
-}
-.banner > p{
-    text-align: center;
-}
-.banner{
-    padding-top:185px;
-    padding-bottom: 18xpx;
-    background-image: url('../images/banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -16px;
-}
-
-.imagem-quemsoueu{
-    border-style: solid;
-    width: 185px;
-}
-
-#quemsoueu{
-    margin-top: 10px;
-}
-
-.container-quemsoueu{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-
-h2{
-    color:black;
-}
-
-p{
-    color:black;
-}
-
-#formacao img{
-    width: 185px;
-}
-
+    body{
+        font-family: 'Roboto', sans-serif;
+        margin:0 auto;
+        padding:0;
+    }
+    
+    #principal{
+        margin:0 auto;
+        padding:0;
+        width: 90%;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #00BFFF;
+    }
+    
+    a:hover{
+        color: white;
+        font-weight:bold;
+    }
+    
+    .menu{
+        background-color:black;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .menu li{
+        display: inline;
+        font-size: 30px;
+    }
+    
+    .banner > h1{
+        font-size: 50px;
+        text-align: center;
+        padding: 0px;
+        color: white;
+        font-family: 'Anton', sans-serif;
+        font-weight: 400;
+    }
+    .banner > p{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        font-weight: 400;
+    }
+    
+    .banner{
+        background-image: url('../images/banner.jpg');
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50vh;
+    }
+    
+    .imagem-quemsoueu{
+        border-style: solid;
+        width: 185px;
+    }
+    
+    #quemsoueu{
+        margin-top: 10px;
+    }
+    
+    .container-quemsoueu{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    .sobre-mim{
+        width: 70%;
+    }
+    
+    h2{
+        color:black;
+    }
+    
+    p{
+        color:black;
+    }
+    
+    #formacao img{
+        width: 185px;
+    }
+    
+    
