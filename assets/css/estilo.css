@@ -71,6 +71,8 @@
     
     .imagem-quemsoueu{
         border-style: solid;
+        border-color: rgb(3, 0, 7);
+        border-radius: 30%;
         width: 185px;
     }
     
@@ -90,15 +92,34 @@
     }
     
     h2{
-        color:black;
+        color:black;    
     }
     
     p{
-        color:black;
+        color:rgb(34, 34, 34);
     }
     
     #formacao img{
         width: 185px;
     }
     
+    .imagem-experiencia{
+        width: 185px;
+    }
+    .imagem-formacao{
+        width: 185px;
+    }
+
+    .experiencia img{
+        display: flex;
     
+    }
+
+.sociais{
+    width: 50px;
+    height: 50px;
+}
+
+.container-sociais{
+    display: flex;
+}
